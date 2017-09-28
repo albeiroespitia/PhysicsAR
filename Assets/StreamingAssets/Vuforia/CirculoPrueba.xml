@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="123" size="0.290000 0.386667" />
+    <ImageTarget name="prueba7" size="0.200000 0.266667" />
+    <ImageTarget name="prebas" size="0.200000 0.266667" />
+    <ImageTarget name="prueba4" size="0.200000 0.266667" />
+    <ImageTarget name="prueba3" size="0.200000 0.266667" />
+    <ImageTarget name="prueba2" size="0.200000 0.266667" />
+    <ImageTarget name="qrcode" size="0.100000 0.100000" />
+    <ImageTarget name="PruebaToalla" size="0.200000 0.266667" />
+  </Tracking>
+</QCARConfig>
