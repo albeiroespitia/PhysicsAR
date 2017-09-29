@@ -3,12 +3,12 @@ guid: 278e3438e3ad1d44a8c6cb1d96dbb196
 timeCreated: 1506730074
 licenseType: Free
 SketchUpImporter:
-  generateBackFace: 0
+  generateBackFace: 1
   mergeCoplanarFaces: 0
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 5a1c251c6018cce7ebd687eb064c61b0
+    Hash: 4cf8a1e5ce1ea030abf3defcbfad0ca1
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
@@ -39,6 +39,7 @@ SketchUpImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh Micrometre
+    4300002: Mesh Micrometer
   materials:
     importMaterials: 1
     materialName: 2
