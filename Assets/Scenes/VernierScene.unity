@@ -522,8 +522,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1088834026}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.023514925, y: 0.06933461, z: -1.7431641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.103678755, y: 0.057, z: -1.7373047}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 783323175}
@@ -545,8 +545,8 @@ MonoBehaviour:
   RequiredFingerCount: 0
   RequiredSelectable: {fileID: 1088834031}
   Camera: {fileID: 0}
-  RotateAxis: {x: 1, y: 0, z: 0}
-  Relative: 1
+  RotateAxis: {x: 0, y: 0, z: 1}
+  Relative: 0
 --- !u!114 &1088834029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,7 +1224,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 31e0489de44a1c3478f63bea73d98943, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 31e0489de44a1c3478f63bea73d98943, type: 3}
       propertyPath: m_LocalScale.x
