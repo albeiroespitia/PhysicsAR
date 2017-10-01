@@ -305,6 +305,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &233039482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 233039478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28160c89b1fb0ce4d9575b46b9a731b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &349945633
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +363,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 349945633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.023, y: 0, z: 4598}
+  m_LocalPosition: {x: -0.023, y: 0, z: 4599.682}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -425,31 +436,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.59483826
+      value: 0.667
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09880002
+      value: 0.16337915
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0068359375
+      value: -0.287
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.4850839
+      value: 0.49844867
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5099575
+      value: 0.49844867
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.49130937
+      value: 0.50154656
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5130811
+      value: 0.50154656
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_RootOrder
@@ -469,19 +480,114 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.19000001
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.469
+      value: 269.64502
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -87.328
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &783323170 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 278e3438e3ad1d44a8c6cb1d96dbb196, type: 3}
+  m_PrefabInternal: {fileID: 783323169}
+--- !u!114 &783323171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 0
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 783323178}
+  WheelSensitivity: 0
+  Camera: {fileID: 0}
+  Relative: 0
+  ScaleClamp: 0
+  ScaleMin: {x: 0, y: 0, z: 0}
+  ScaleMax: {x: 0, y: 0, z: 0}
+--- !u!114 &783323172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d72cc6210cb7144a24acb7402222a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 0
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 783323178}
+  Camera: {fileID: 0}
+  RotateAxis: {x: 0, y: 1, z: 0}
+  Relative: 0
+--- !u!114 &783323173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 1
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 783323178}
+  Camera: {fileID: 0}
+--- !u!114 &783323174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783323170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20bfbd617b5801e4d81897d71b22f760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &783323178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 783323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HideWithFinger: 0
+  OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Lean.Touch.LeanSelectable+LeanFingerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnSelectUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Lean.Touch.LeanSelectable+LeanFingerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnDeselect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  isSelected: 0
 --- !u!21 &1156946566
 Material:
   serializedVersion: 6
@@ -753,6 +859,7 @@ GameObject:
   - component: {fileID: 1402764557}
   - component: {fileID: 1402764556}
   - component: {fileID: 1402764555}
+  - component: {fileID: 1402764558}
   m_Layer: 0
   m_Name: Vernier
   m_TagString: Untagged
@@ -787,7 +894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IgnoreGuiFingers: 1
   RequiredFingerCount: 0
-  RequiredSelectable: {fileID: 0}
+  RequiredSelectable: {fileID: 1402764558}
   Camera: {fileID: 0}
 --- !u!114 &1402764556
 MonoBehaviour:
@@ -802,7 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IgnoreGuiFingers: 0
   RequiredFingerCount: 0
-  RequiredSelectable: {fileID: 0}
+  RequiredSelectable: {fileID: 1402764558}
   Camera: {fileID: 0}
   RotateAxis: {x: 0, y: 0, z: 1}
   Relative: 0
@@ -819,13 +926,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IgnoreGuiFingers: 0
   RequiredFingerCount: 0
-  RequiredSelectable: {fileID: 0}
+  RequiredSelectable: {fileID: 1402764558}
   WheelSensitivity: 0
   Camera: {fileID: 0}
   Relative: 0
   ScaleClamp: 0
   ScaleMin: {x: 0, y: 0, z: 0}
   ScaleMax: {x: 0, y: 0, z: 0}
+--- !u!114 &1402764558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1402764553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HideWithFinger: 0
+  OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Lean.Touch.LeanSelectable+LeanFingerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnSelectUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Lean.Touch.LeanSelectable+LeanFingerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnDeselect:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  isSelected: 1
 --- !u!4 &1459608070 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400060, guid: ea51c649beb3bfa4688005eb71337c5a, type: 3}
@@ -1017,6 +1152,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d39e4533a887d104e949bbd23669cf58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1639070371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1639070368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28160c89b1fb0ce4d9575b46b9a731b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1816877528

@@ -18,6 +18,7 @@ ITrackableEventHandler
 
 	void Start()
 	{
+	
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
 		if (mTrackableBehaviour)
 		{
