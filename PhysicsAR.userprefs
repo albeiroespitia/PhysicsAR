@@ -1,6 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnabledInteraction.cs">
+    <Files>
+      <File FileName="Assets\LeanTouch\Scripts\LeanSelectable.cs" Line="46" Column="3" />
+      <File FileName="Assets\Scripts\Pivot.cs" Line="9" Column="24" />
+      <File FileName="Assets\Scripts\EnabledInteraction.cs" Line="12" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
