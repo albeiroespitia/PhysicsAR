@@ -9,7 +9,9 @@ public class ImageTargetPlayAudio : MonoBehaviour,
 ITrackableEventHandler
 {
 		private AudioSource audioSource;	
-	private TrackableBehaviour mTrackableBehaviour;
+		private TrackableBehaviour mTrackableBehaviour;
+
+		public int AudioFlag=0;	
 
 	
 		void Awake(){
@@ -36,11 +38,13 @@ ITrackableEventHandler
 		{
 			// Play audio when target is found
 				audioSource.Play();
+				AudioFlag = 1;
 		}
 		else
 		{
 			// Stop audio when target is lost
 				audioSource.Stop();
+				AudioFlag = 0;
 		}
 	}   
 }

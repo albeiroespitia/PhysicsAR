@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e4533a887d104e949bbd23669cf58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioFlag: 0
 --- !u!82 &233039481
 AudioSource:
   m_ObjectHideFlags: 0
@@ -234,7 +235,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a0469fa60a087b649a54d886b7691be1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8bb25ce0fa0290e47b7aa6ce88ce3618, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -314,6 +315,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28160c89b1fb0ce4d9575b46b9a731b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &233039483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 233039478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a5c2a98355073408fce78002661be4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &349945633
@@ -616,7 +628,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: VernierMaterial
+  m_Name: MicrometerMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1176,6 +1188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e4533a887d104e949bbd23669cf58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioFlag: 0
 --- !u!114 &1639070371
 MonoBehaviour:
   m_ObjectHideFlags: 0

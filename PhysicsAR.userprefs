@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnabledInteraction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ImageTargetPlayAudio.cs">
     <Files>
-      <File FileName="Assets\LeanTouch\Scripts\LeanSelectable.cs" Line="46" Column="3" />
-      <File FileName="Assets\Scripts\Pivot.cs" Line="9" Column="24" />
-      <File FileName="Assets\Scripts\EnabledInteraction.cs" Line="12" Column="5" />
+      <File FileName="..\..\..\Desktop\RealidadAumentada\PruebaAR\Assets\CutScene.cs" Line="18" Column="3" />
+      <File FileName="Assets\Scripts\VideoControllerMicrometer.cs" Line="25" Column="51" />
+      <File FileName="Assets\Scripts\VideoControllerVernier.cs" Line="14" Column="1" />
+      <File FileName="Assets\Scripts\ImageTargetPlayAudio.cs" Line="47" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
