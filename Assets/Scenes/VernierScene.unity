@@ -558,7 +558,7 @@ MonoBehaviour:
   RequiredSelectable: {fileID: 1088834031}
   Camera: {fileID: 0}
   RotateAxis: {x: 0, y: 0, z: 1}
-  Relative: 0
+  Relative: 1
 --- !u!114 &1088834029
 MonoBehaviour:
   m_ObjectHideFlags: 0
