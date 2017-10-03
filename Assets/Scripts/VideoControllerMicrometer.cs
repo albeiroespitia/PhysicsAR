@@ -5,7 +5,7 @@ using Vuforia;
 
 public class VideoControllerMicrometer : MonoBehaviour {
 
-	float Timer = 5.0f;
+	float Timer = 68.0f;
 	ImageTargetPlayAudio imageTargetPlayAudio;
 
 
@@ -27,7 +27,7 @@ public class VideoControllerMicrometer : MonoBehaviour {
 			}
 			
 		} else {
-			Timer = 5.0f;
+			Timer = 68.0f;
 		}
 
 	}
