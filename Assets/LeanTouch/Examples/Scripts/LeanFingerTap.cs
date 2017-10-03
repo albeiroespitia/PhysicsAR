@@ -61,5 +61,7 @@ namespace Lean.Touch
 			// Call event
 			OnFingerTap.Invoke(finger);
 		}
+
 	}
-}
+
+}	
