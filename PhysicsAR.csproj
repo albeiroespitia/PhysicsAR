@@ -127,6 +127,7 @@
     <Compile Include="Assets\Scripts\EnabledInteraction.cs" />
     <Compile Include="Assets\Scripts\ImageTargetPlayAudio.cs" />
     <Compile Include="Assets\Scripts\Pivot.cs" />
+    <Compile Include="Assets\Scripts\ResetPosition.cs" />
     <Compile Include="Assets\Scripts\VideoControllerMicrometer.cs" />
     <Compile Include="Assets\Scripts\VideoControllerVernier.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
