@@ -20,9 +20,7 @@ public class VideoControllerVernier : MonoBehaviour {
 
 		if (imageTargetPlayAudio.AudioFlag == 1) {
 			Timer -= Time.deltaTime;
-			Debug.Log (Timer);
 			if (Timer < 0) {
-				Debug.Log ("Entro");
 				Handheld.PlayFullScreenMovie ("VideoVernier.mp4", Color.black, FullScreenMovieControlMode.Hidden);
 			}
 
